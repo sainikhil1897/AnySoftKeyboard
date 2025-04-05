@@ -26,7 +26,7 @@ jobs:
         run: chmod +x ./gradlew
 
       - name: Build APK
-        run: ./gradlew :ime:app:assembleDebug
+        run: ./gradlew assembleApkDebug
 
       - name: Upload APK
         uses: actions/upload-artifact@v3
